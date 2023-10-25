@@ -23,4 +23,6 @@ npm install
 npm run start
 ```
 
+*(If everything goes okay, the step 3 should generate a Bundle.js file at src/Bundle.js)*
+
 Done!, you have already your Esbuild + React server running.

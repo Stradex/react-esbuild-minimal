@@ -129,5 +129,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+#Ignore compiled files by Esbuild
+
 src/Bundle.js
 src/Bundle.js.map

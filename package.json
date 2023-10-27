@@ -5,15 +5,14 @@
   "main": "./index.jsx",
   "scripts": {
     "build": "node ./build.js",
-    "start": "npm run build && serve src/",
+    "start": "node ./esbuild-server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "serve": "^14.2.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "esbuild": "0.19.5"
